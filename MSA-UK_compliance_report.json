@@ -1,0 +1,716 @@
+{
+  "report_metadata": {
+    "generated_at": "2026-03-11T22:41:11.525353Z",
+    "msa_source_file": "MSA-UK.pdf",
+    "msa_length": 11574,
+    "analysis_version": "2.0-filename",
+    "jurisdictions_analyzed": 1
+  },
+  "executive_summary": {
+    "total_rules_checked": 16,
+    "compliant": 5,
+    "non_compliant": 0,
+    "partial_compliance": 11,
+    "compliance_rate": "31.2%",
+    "high_risk_issues": 5,
+    "overall_status": "FAIL"
+  },
+  "detected_jurisdictions": [
+    "UK"
+  ],
+  "jurisdiction_breakdown": {
+    "UK": {
+      "total": 16,
+      "compliant": 5,
+      "non_compliant": 0,
+      "partial": 11
+    }
+  },
+  "detailed_findings": [
+    {
+      "clause_type": "AuditRights",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Audit Requirements",
+      "required_text": "Grant audit rights to verify compliance with data protection obligations",
+      "status": "PARTIAL",
+      "risk_level": "MEDIUM",
+      "findings": "MSA partially addresses 'AuditRights'. Found 7/8 required elements. Missing: verify.",
+      "evidence": [
+        "5. SECURITY AND AUDIT",
+        ". Customer warrants that (a) it has all necessary rights",
+        "compliance with its obligations under Articles 32 to 36 of t",
+        "will act as a Data Processor for Personal Data provided by the Customer, who acts as"
+      ],
+      "keywords_found": [
+        "grant",
+        "audit",
+        "rights",
+        "compliance",
+        "data",
+        "protection",
+        "obligations"
+      ],
+      "keywords_missing": [
+        "verify"
+      ],
+      "source_document": "UK-GDPR.pdf"
+    },
+    {
+      "clause_type": "ConsentRequirements",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Consent",
+      "required_text": "Obtain clear, specific, informed, and freely given consent",
+      "status": "PARTIAL",
+      "risk_level": "HIGH",
+      "findings": "MSA partially addresses 'ConsentRequirements'. Found 2/7 required elements. Missing: obtain, clear, informed.",
+      "evidence": [
+        "e any third-party sub-processor without the prior specific",
+        "written consent of the Customer. Provider shall maintain an up-to"
+      ],
+      "keywords_found": [
+        "specific",
+        "consent"
+      ],
+      "keywords_missing": [
+        "obtain",
+        "clear",
+        "informed",
+        "freely",
+        "given"
+      ],
+      "source_document": "UK-GDPR.pdf"
+    },
+    {
+      "clause_type": "CrossBorderTransfer",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Cross-Border Transfers",
+      "required_text": "Implement lawful mechanism for cross-border data transfers",
+      "status": "PARTIAL",
+      "risk_level": "HIGH",
+      "findings": "MSA partially addresses 'CrossBorderTransfer'. Found 5/7 required elements. Missing: cross, border.",
+      "evidence": [
+        "(c) Security: Implement and maintain the appropriate technical and organi",
+        "Framework, providing a lawful basis for transferring Personal Data to certified",
+        "6.2 Lawful Transfer Mechanism. To ensure such a Restricted Transfer is lawful,",
+        "will act as a Data Processor for Personal Data provided by the Customer, who acts as",
+        "transfers of Personal Data originating from the UK, as issu"
+      ],
+      "keywords_found": [
+        "implement",
+        "lawful",
+        "mechanism",
+        "data",
+        "transfers"
+      ],
+      "keywords_missing": [
+        "cross",
+        "border"
+      ],
+      "source_document": "UK-GDPR.pdf"
+    },
+    {
+      "clause_type": "DataBreachNotification",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Breach Notification",
+      "required_text": "notify within 72 hours of breach",
+      "status": "COMPLIANT",
+      "risk_level": "HIGH",
+      "findings": "MSA contains required 'DataBreachNotification' clause with all necessary elements.",
+      "evidence": [
+        "(b) Provider shall promptly notify Customer in writing if it fails to maintain, or i",
+        "breach that is not cured within 30 days of notice. A significant breach of Sectio",
+        "delay, and in no event later than thirty-six (36) hours, after becoming aware of any",
+        "\"Processing\", and \"Personal Data Breach\" shall have the meanings ascribed to them"
+      ],
+      "keywords_found": [
+        "notify",
+        "within",
+        "hours",
+        "breach"
+      ],
+      "keywords_missing": [],
+      "source_document": "Unknown Source"
+    },
+    {
+      "clause_type": "DataPortability",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Data Portability",
+      "required_text": "Provide data in structured, commonly used, machine-readable format",
+      "status": "PARTIAL",
+      "risk_level": "MEDIUM",
+      "findings": "MSA partially addresses 'DataPortability'. Found 3/8 required elements. Missing: structured, commonly, used.",
+      "evidence": [
+        "2.1 Services. Provider shall provide the Services to Customer as set forth in the",
+        "will act as a Data Processor for Personal Data provided by the Customer, who acts as"
+      ],
+      "keywords_found": [
+        "provide",
+        "data",
+        "format"
+      ],
+      "keywords_missing": [
+        "structured",
+        "commonly",
+        "used",
+        "machine",
+        "readable"
+      ],
+      "source_document": "UK-GDPR.pdf"
+    },
+    {
+      "clause_type": "DataPrincipalRights",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Individual Rights",
+      "required_text": "Enable data subject rights including access, correction, and erasure",
+      "status": "PARTIAL",
+      "risk_level": "MEDIUM",
+      "findings": "MSA partially addresses 'DataPrincipalRights'. Found 7/8 required elements. Missing: correction.",
+      "evidence": [
+        "Customer's expense) to enable Customer to respond to requests from Data Subject",
+        "will act as a Data Processor for Personal Data provided by the Customer, who acts as",
+        "1.5 \"Data Subject\", \"Data Controller\", \"Data Processor\", \"Personal",
+        ". Customer warrants that (a) it has all necessary rights",
+        "\"Agreement\" means this Master Services Agreement, including all Schedules and"
+      ],
+      "keywords_found": [
+        "enable",
+        "data",
+        "subject",
+        "rights",
+        "including",
+        "access",
+        "erasure"
+      ],
+      "keywords_missing": [
+        "correction"
+      ],
+      "source_document": "Unknown Source"
+    },
+    {
+      "clause_type": "DataProcessorObligations",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Processor Requirements",
+      "required_text": "Process data only on documented instructions with appropriate security",
+      "status": "COMPLIANT",
+      "risk_level": "HIGH",
+      "findings": "MSA contains required 'DataProcessorObligations' clause with all necessary elements.",
+      "evidence": [
+        "(a) Process only on Instructions: Process the Personal Data only on the documented",
+        "will act as a Data Processor for Personal Data provided by the Customer, who acts as",
+        "(a) Process only on Instructions: Process the Personal Data only o",
+        "structions: Process the Personal Data only on the documented",
+        "instructions to the Provider shall comply with all applicable"
+      ],
+      "keywords_found": [
+        "process",
+        "data",
+        "only",
+        "documented",
+        "instructions",
+        "appropriate",
+        "security"
+      ],
+      "keywords_missing": [],
+      "source_document": "UK-GDPR.pdf"
+    },
+    {
+      "clause_type": "DataRetention",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Retention",
+      "required_text": "Retain data only for as long as necessary for specified purposes",
+      "status": "PARTIAL",
+      "risk_level": "MEDIUM",
+      "findings": "MSA partially addresses 'DataRetention'. Found 6/7 required elements. Missing: retain.",
+      "evidence": [
+        "will act as a Data Processor for Personal Data provided by the Customer, who acts as",
+        "(a) Process only on Instructions: Process the Personal Data only o",
+        "sibilities. Customer warrants that (a) it has all necessary rights",
+        "3.1 Fees. Customer shall pay all fees specified in the Order Form. All Fees are quoted"
+      ],
+      "keywords_found": [
+        "data",
+        "only",
+        "long",
+        "necessary",
+        "specified",
+        "purposes"
+      ],
+      "keywords_missing": [
+        "retain"
+      ],
+      "source_document": "UK-GDPR.pdf"
+    },
+    {
+      "clause_type": "DataSubjectRights",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Individual Rights",
+      "required_text": "Provide assistance to enable data subject rights requests",
+      "status": "COMPLIANT",
+      "risk_level": "MEDIUM",
+      "findings": "MSA contains required 'DataSubjectRights' clause with all necessary elements.",
+      "evidence": [
+        "2.1 Services. Provider shall provide the Services to Customer as set forth in the",
+        "ata Subject Rights: Provide prompt and reasonable assistance to Customer (at",
+        "Customer's expense) to enable Customer to respond to requests from Data Subject",
+        "will act as a Data Processor for Personal Data provided by the Customer, who acts as",
+        "1.5 \"Data Subject\", \"Data Controller\", \"Data Processor\", \"Personal"
+      ],
+      "keywords_found": [
+        "provide",
+        "assistance",
+        "enable",
+        "data",
+        "subject",
+        "rights",
+        "requests"
+      ],
+      "keywords_missing": [],
+      "source_document": "Unknown Source"
+    },
+    {
+      "clause_type": "GrievanceRedressal",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Grievance Redressal",
+      "required_text": "Establish grievance redressal mechanism for complaints",
+      "status": "PARTIAL",
+      "risk_level": "MEDIUM",
+      "findings": "MSA partially addresses 'GrievanceRedressal'. Found 2/5 required elements. Missing: grievance, redressal, complaints.",
+      "evidence": [
+        "WHEREAS, the Parties wish to establish the terms and conditions under which Provider",
+        "6.2 Lawful Transfer Mechanism. To ensure such a Restricted Transfer is lawful,"
+      ],
+      "keywords_found": [
+        "establish",
+        "mechanism"
+      ],
+      "keywords_missing": [
+        "grievance",
+        "redressal",
+        "complaints"
+      ],
+      "source_document": "Unknown Source"
+    },
+    {
+      "clause_type": "IndemnificationClause",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Liability",
+      "required_text": "Include indemnification provisions for data protection breaches",
+      "status": "PARTIAL",
+      "risk_level": "HIGH",
+      "findings": "MSA partially addresses 'IndemnificationClause'. Found 4/6 required elements. Missing: indemnification, breaches.",
+      "evidence": [
+        "7.2 Cooperation. Such notification shall include all available information to assist",
+        "10. GENERAL PROVISIONS",
+        "will act as a Data Processor for Personal Data provided by the Customer, who acts as",
+        "1.4 \"Data Protection Legislation\" means all applicable data protection"
+      ],
+      "keywords_found": [
+        "include",
+        "provisions",
+        "data",
+        "protection"
+      ],
+      "keywords_missing": [
+        "indemnification",
+        "breaches"
+      ],
+      "source_document": "UK-GDPR.pdf"
+    },
+    {
+      "clause_type": "InternationalTransfer",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Cross-Border Transfers",
+      "required_text": "Lawful transfer mechanism required (SCCs, adequacy decision, or approved framework)",
+      "status": "PARTIAL",
+      "risk_level": "HIGH",
+      "findings": "MSA partially addresses 'InternationalTransfer'. Found 8/9 required elements. Missing: approved.",
+      "evidence": [
+        "Framework, providing a lawful basis for transferring Personal Data to certified",
+        "1.8 \"Restricted Transfer\" means a transfer of Personal Data from the UK to a third",
+        "6.2 Lawful Transfer Mechanism. To ensure such a Restricted Transfer is lawful,",
+        "Form), unless required to do so by applicable law. Provider shall immedi",
+        "1.10 \"UK SCCs\" means the applicable standard contractual clause"
+      ],
+      "keywords_found": [
+        "lawful",
+        "transfer",
+        "mechanism",
+        "required",
+        "sccs",
+        "adequacy",
+        "decision",
+        "framework"
+      ],
+      "keywords_missing": [
+        "approved"
+      ],
+      "source_document": "Unknown Source"
+    },
+    {
+      "clause_type": "PrivacyByDesign",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Privacy by Design",
+      "required_text": "Implement privacy by design and by default in all processing activities",
+      "status": "PARTIAL",
+      "risk_level": "MEDIUM",
+      "findings": "MSA partially addresses 'PrivacyByDesign'. Found 4/7 required elements. Missing: design, default, activities.",
+      "evidence": [
+        "(c) Security: Implement and maintain the appropriate technical and organi",
+        "slation\" means all applicable data protection and privacy",
+        "\" means this Master Services Agreement, including all Schedules and",
+        "the Processing of Personal Data and privacy, including the Priva"
+      ],
+      "keywords_found": [
+        "implement",
+        "privacy",
+        "all",
+        "processing"
+      ],
+      "keywords_missing": [
+        "design",
+        "default",
+        "activities"
+      ],
+      "source_document": "UK-GDPR.pdf"
+    },
+    {
+      "clause_type": "RightToErasure",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Erasure Rights",
+      "required_text": "Provide mechanism for data subject to request deletion of their data",
+      "status": "PARTIAL",
+      "risk_level": "HIGH",
+      "findings": "MSA partially addresses 'RightToErasure'. Found 5/6 required elements. Missing: deletion.",
+      "evidence": [
+        "2.1 Services. Provider shall provide the Services to Customer as set forth in the",
+        "6.2 Lawful Transfer Mechanism. To ensure such a Restricted Transfer is lawful,",
+        "will act as a Data Processor for Personal Data provided by the Customer, who acts as",
+        "1.5 \"Data Subject\", \"Data Controller\", \"Data Processor\", \"Personal",
+        "cessors, which shall be provided to Customer upon request. Where consent is"
+      ],
+      "keywords_found": [
+        "provide",
+        "mechanism",
+        "data",
+        "subject",
+        "request"
+      ],
+      "keywords_missing": [
+        "deletion"
+      ],
+      "source_document": "UK-GDPR.pdf"
+    },
+    {
+      "clause_type": "SecurityMeasures",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Security Requirements",
+      "required_text": "Implement appropriate technical and organisational security measures",
+      "status": "COMPLIANT",
+      "risk_level": "HIGH",
+      "findings": "MSA contains required 'SecurityMeasures' clause with all necessary elements.",
+      "evidence": [
+        "(c) Security: Implement and maintain the appropriate technical and organi",
+        "(c) Security: Implement and maintain the appropriate technical and organisational",
+        "Security: Implement and maintain the appropriate technical and organisational",
+        "lement and maintain the appropriate technical and organisational",
+        "(c) Security: Implement and maintain the appropriate technical"
+      ],
+      "keywords_found": [
+        "implement",
+        "appropriate",
+        "technical",
+        "organisational",
+        "security",
+        "measures"
+      ],
+      "keywords_missing": [],
+      "source_document": "Unknown Source"
+    },
+    {
+      "clause_type": "SecuritySafeguards",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Security Requirements",
+      "required_text": "Implement appropriate technical and organisational security measures",
+      "status": "COMPLIANT",
+      "risk_level": "HIGH",
+      "findings": "MSA contains required 'SecuritySafeguards' clause with all necessary elements.",
+      "evidence": [
+        "(c) Security: Implement and maintain the appropriate technical and organi",
+        "(c) Security: Implement and maintain the appropriate technical and organisational",
+        "Security: Implement and maintain the appropriate technical and organisational",
+        "lement and maintain the appropriate technical and organisational",
+        "(c) Security: Implement and maintain the appropriate technical"
+      ],
+      "keywords_found": [
+        "implement",
+        "appropriate",
+        "technical",
+        "organisational",
+        "security",
+        "measures"
+      ],
+      "keywords_missing": [],
+      "source_document": "UK-GDPR.pdf"
+    }
+  ],
+  "high_risk_issues": [
+    {
+      "clause_type": "ConsentRequirements",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Consent",
+      "required_text": "Obtain clear, specific, informed, and freely given consent",
+      "status": "PARTIAL",
+      "risk_level": "HIGH",
+      "findings": "MSA partially addresses 'ConsentRequirements'. Found 2/7 required elements. Missing: obtain, clear, informed.",
+      "evidence": [
+        "e any third-party sub-processor without the prior specific",
+        "written consent of the Customer. Provider shall maintain an up-to"
+      ],
+      "keywords_found": [
+        "specific",
+        "consent"
+      ],
+      "keywords_missing": [
+        "obtain",
+        "clear",
+        "informed",
+        "freely",
+        "given"
+      ],
+      "source_document": "UK-GDPR.pdf"
+    },
+    {
+      "clause_type": "CrossBorderTransfer",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Cross-Border Transfers",
+      "required_text": "Implement lawful mechanism for cross-border data transfers",
+      "status": "PARTIAL",
+      "risk_level": "HIGH",
+      "findings": "MSA partially addresses 'CrossBorderTransfer'. Found 5/7 required elements. Missing: cross, border.",
+      "evidence": [
+        "(c) Security: Implement and maintain the appropriate technical and organi",
+        "Framework, providing a lawful basis for transferring Personal Data to certified",
+        "6.2 Lawful Transfer Mechanism. To ensure such a Restricted Transfer is lawful,",
+        "will act as a Data Processor for Personal Data provided by the Customer, who acts as",
+        "transfers of Personal Data originating from the UK, as issu"
+      ],
+      "keywords_found": [
+        "implement",
+        "lawful",
+        "mechanism",
+        "data",
+        "transfers"
+      ],
+      "keywords_missing": [
+        "cross",
+        "border"
+      ],
+      "source_document": "UK-GDPR.pdf"
+    },
+    {
+      "clause_type": "IndemnificationClause",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Liability",
+      "required_text": "Include indemnification provisions for data protection breaches",
+      "status": "PARTIAL",
+      "risk_level": "HIGH",
+      "findings": "MSA partially addresses 'IndemnificationClause'. Found 4/6 required elements. Missing: indemnification, breaches.",
+      "evidence": [
+        "7.2 Cooperation. Such notification shall include all available information to assist",
+        "10. GENERAL PROVISIONS",
+        "will act as a Data Processor for Personal Data provided by the Customer, who acts as",
+        "1.4 \"Data Protection Legislation\" means all applicable data protection"
+      ],
+      "keywords_found": [
+        "include",
+        "provisions",
+        "data",
+        "protection"
+      ],
+      "keywords_missing": [
+        "indemnification",
+        "breaches"
+      ],
+      "source_document": "UK-GDPR.pdf"
+    },
+    {
+      "clause_type": "InternationalTransfer",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Cross-Border Transfers",
+      "required_text": "Lawful transfer mechanism required (SCCs, adequacy decision, or approved framework)",
+      "status": "PARTIAL",
+      "risk_level": "HIGH",
+      "findings": "MSA partially addresses 'InternationalTransfer'. Found 8/9 required elements. Missing: approved.",
+      "evidence": [
+        "Framework, providing a lawful basis for transferring Personal Data to certified",
+        "1.8 \"Restricted Transfer\" means a transfer of Personal Data from the UK to a third",
+        "6.2 Lawful Transfer Mechanism. To ensure such a Restricted Transfer is lawful,",
+        "Form), unless required to do so by applicable law. Provider shall immedi",
+        "1.10 \"UK SCCs\" means the applicable standard contractual clause"
+      ],
+      "keywords_found": [
+        "lawful",
+        "transfer",
+        "mechanism",
+        "required",
+        "sccs",
+        "adequacy",
+        "decision",
+        "framework"
+      ],
+      "keywords_missing": [
+        "approved"
+      ],
+      "source_document": "Unknown Source"
+    },
+    {
+      "clause_type": "RightToErasure",
+      "jurisdiction": "UK",
+      "regulation": "UK Data Protection Law - Erasure Rights",
+      "required_text": "Provide mechanism for data subject to request deletion of their data",
+      "status": "PARTIAL",
+      "risk_level": "HIGH",
+      "findings": "MSA partially addresses 'RightToErasure'. Found 5/6 required elements. Missing: deletion.",
+      "evidence": [
+        "2.1 Services. Provider shall provide the Services to Customer as set forth in the",
+        "6.2 Lawful Transfer Mechanism. To ensure such a Restricted Transfer is lawful,",
+        "will act as a Data Processor for Personal Data provided by the Customer, who acts as",
+        "1.5 \"Data Subject\", \"Data Controller\", \"Data Processor\", \"Personal",
+        "cessors, which shall be provided to Customer upon request. Where consent is"
+      ],
+      "keywords_found": [
+        "provide",
+        "mechanism",
+        "data",
+        "subject",
+        "request"
+      ],
+      "keywords_missing": [
+        "deletion"
+      ],
+      "source_document": "UK-GDPR.pdf"
+    }
+  ],
+  "recommendations": [
+    {
+      "priority": "HIGH",
+      "category": "ConsentRequirements",
+      "recommendation": "Add or update ConsentRequirements clause to comply with UK requirements",
+      "affected_clauses": [
+        "ConsentRequirements"
+      ],
+      "affected_jurisdictions": [
+        "UK"
+      ],
+      "suggested_text": "Obtain clear, specific, informed, and freely given consent..."
+    },
+    {
+      "priority": "HIGH",
+      "category": "CrossBorderTransfer",
+      "recommendation": "Add or update CrossBorderTransfer clause to comply with UK requirements",
+      "affected_clauses": [
+        "CrossBorderTransfer"
+      ],
+      "affected_jurisdictions": [
+        "UK"
+      ],
+      "suggested_text": "Implement lawful mechanism for cross-border data transfers..."
+    },
+    {
+      "priority": "HIGH",
+      "category": "IndemnificationClause",
+      "recommendation": "Add or update IndemnificationClause clause to comply with UK requirements",
+      "affected_clauses": [
+        "IndemnificationClause"
+      ],
+      "affected_jurisdictions": [
+        "UK"
+      ],
+      "suggested_text": "Include indemnification provisions for data protection breaches..."
+    },
+    {
+      "priority": "HIGH",
+      "category": "InternationalTransfer",
+      "recommendation": "Add or update InternationalTransfer clause to comply with UK requirements",
+      "affected_clauses": [
+        "InternationalTransfer"
+      ],
+      "affected_jurisdictions": [
+        "UK"
+      ],
+      "suggested_text": "Lawful transfer mechanism required (SCCs, adequacy decision, or approved framework)..."
+    },
+    {
+      "priority": "HIGH",
+      "category": "RightToErasure",
+      "recommendation": "Add or update RightToErasure clause to comply with UK requirements",
+      "affected_clauses": [
+        "RightToErasure"
+      ],
+      "affected_jurisdictions": [
+        "UK"
+      ],
+      "suggested_text": "Provide mechanism for data subject to request deletion of their data..."
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "AuditRights",
+      "recommendation": "Add or update AuditRights clause to comply with UK requirements",
+      "affected_clauses": [
+        "AuditRights"
+      ],
+      "affected_jurisdictions": [
+        "UK"
+      ],
+      "suggested_text": "Grant audit rights to verify compliance with data protection obligations..."
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "DataPortability",
+      "recommendation": "Add or update DataPortability clause to comply with UK requirements",
+      "affected_clauses": [
+        "DataPortability"
+      ],
+      "affected_jurisdictions": [
+        "UK"
+      ],
+      "suggested_text": "Provide data in structured, commonly used, machine-readable format..."
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "DataPrincipalRights",
+      "recommendation": "Add or update DataPrincipalRights clause to comply with UK requirements",
+      "affected_clauses": [
+        "DataPrincipalRights"
+      ],
+      "affected_jurisdictions": [
+        "UK"
+      ],
+      "suggested_text": "Enable data subject rights including access, correction, and erasure..."
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "DataRetention",
+      "recommendation": "Add or update DataRetention clause to comply with UK requirements",
+      "affected_clauses": [
+        "DataRetention"
+      ],
+      "affected_jurisdictions": [
+        "UK"
+      ],
+      "suggested_text": "Retain data only for as long as necessary for specified purposes..."
+    },
+    {
+      "priority": "MEDIUM",
+      "category": "GrievanceRedressal",
+      "recommendation": "Add or update GrievanceRedressal clause to comply with UK requirements",
+      "affected_clauses": [
+        "GrievanceRedressal"
+      ],
+      "affected_jurisdictions": [
+        "UK"
+      ],
+      "suggested_text": "Establish grievance redressal mechanism for complaints..."
+    }
+  ]
+}
